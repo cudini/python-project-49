@@ -1,9 +1,9 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/cudini/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/cudini/python-project-49/actions)
 
-# Project Title
+# Brain Games
 
-Simple overview of use/purpose.
+Four simple smarty games
 
 ## Description
 
