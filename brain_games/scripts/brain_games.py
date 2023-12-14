@@ -6,7 +6,7 @@ def greets():
 
 
 def main():
-    greets
+    greets()
 
 
 if __name__ == '__main__':
