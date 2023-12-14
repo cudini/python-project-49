@@ -4,11 +4,11 @@ install: # установка пакета нашего проекта
 brain-games: # запуск проекта
 	poetry run brain-games
 
-build:
+build: # сборка пакета
 	poetry build
 
-publish:
+publish: # публикация пакета без отправки в индекс
 	poetry publish --dry-run
 
-package-install:
+package-install: # --force-reinstall для переустановки пакета
 	python3 -m pip install --user dist/*.whl
