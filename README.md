@@ -1,13 +1,13 @@
-### Hexlet tests and linter status:
-[![Actions Status](https://github.com/cudini/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/cudini/python-project-49/actions)
-
 # Brain Games
 
-Four simple smarty games
+### Hexlet tests and linter status:
+[![Actions Status](https://github.com/cudini/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/cudini/python-project-49/actions)
+### Codeclimate
+[![Maintainability](https://api.codeclimate.com/v1/badges/e39f8195a4289dc79796/maintainability)](https://codeclimate.com/github/cudini/python-project-49/maintainability)
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+Four simple smarty console-games
 
 ## Getting Started
 
@@ -38,8 +38,7 @@ command to run if program contains helper info
 
 ## Authors
 
-Contributors names and contact info
-
+Dmitry Ryzhov
 
 ## Version History
 
@@ -55,4 +54,4 @@ This project is licensed under the [NAME HERE] License - see the LICENSE.md file
 
 ## Acknowledgments
 
-Inspiration, code snippets, etc.
+Inspirated by Hexlet
