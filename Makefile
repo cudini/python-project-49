@@ -11,4 +11,7 @@ publish: # публикация пакета без отправки в инде
 	poetry publish --dry-run
 
 package-install: # --force-reinstall для переустановки пакета
-	python3 -m pip install --user dist/*.whl
+	python3 -m pip install --user dist/*.whl --force-reinstall
+
+make lint:
+	poetry run flake8 brain_games
