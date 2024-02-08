@@ -6,14 +6,14 @@ MAX_NUMBER = 100
 
 
 def is_even(random_number):
-    return random_number % 2 == 0
+    return random_number & 1
 
 
-def get_even():
-    random_number = randint(MIN_NUMBER, MAX_NUMBER)
-    if is_even(random_number):
+def get_game_data():
+    number = randint(MIN_NUMBER, MAX_NUMBER)
+    if is_even(number):
         correct_answer = 'yes'
     else:
         correct_answer = 'no'
-    question = random_number
-    return question, correct_answer
+    game_question = number
+    return game_question, correct_answer
