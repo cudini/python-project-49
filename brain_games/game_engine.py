@@ -11,9 +11,9 @@ def start_game(game):
     user_name = prompt.string('May I have your name? ')
     print(f'Hello, {user_name}!')
     print(game.DESCRIPTION)
-    game_try = 0
+    tries_left = GAME_CONTINUE
 
-    while game_try < GAME_CONTINUE:
+    while tries_left > 0:
         game_question, correct_answer = game.get_game_state()
         print(f'Question: {game_question}')
         user_answer = prompt.string('Your answer: ')
@@ -26,6 +26,6 @@ def start_game(game):
             print(f"Let 's try again, {user_name}!")
             return
 
-        game_try += 1
+        tries_left -= 1
 
     print(f'Congratulanions, {user_name}!')
