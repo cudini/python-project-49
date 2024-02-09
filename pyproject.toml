@@ -9,7 +9,7 @@ packages = [
   { include = "brain_games" },
 ]
 classifiers = [
-    "Programming Language :: Python :: 3.10.12",
+    "Programming Language :: Python :: 3.10",
     "Framework :: Flake8",
     "Intended Audience :: Education",
     "Intended Audience :: Developers",
