@@ -13,7 +13,7 @@ def is_prime(number: int) -> bool:
     if number < 2 and number % 2 == 0:
         return False
     for devisor in range(2, int(sqrt(number)) + 1):
-        return number % devisor == 0
+        return number % devisor != 0
 
 
 def get_game_state():
