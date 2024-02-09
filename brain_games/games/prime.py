@@ -20,11 +20,9 @@ def is_prime(number: int) -> bool:
 
 def get_game_state():
     number = randint(MIN_NUMBER, MAX_NUMBER)
-
     if is_prime(number):
         correct_answer = 'yes'
     else:
         correct_answer = 'no'
     game_question = number
-
     return game_question, correct_answer
