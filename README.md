@@ -1,40 +1,42 @@
-# Brain Games
+# Brain Games: simple smarty console-games
 
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/cudini/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/cudini/python-project-49/actions)
 ### Codeclimate
 [![Maintainability](https://api.codeclimate.com/v1/badges/e39f8195a4289dc79796/maintainability)](https://codeclimate.com/github/cudini/python-project-49/maintainability)
 
-## Description
-
-Four simple smarty console-games
-
-## Getting Started
+### Technologies
+![](https://img.shields.io/badge/language-python-blue)
+![](https://img.shields.io/badge/lybrary-prompt-brightgreen)
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
+* python = "3.9^"
+* prompt = "0.4.1^"
+## Description
+
+Five simple smarty console-games to train your brain. Game mechanics are simple -
+chosen game asks you to answer questions. Incorrect answer end the game, but if you answer
+correctly you may have a three attempts.
 
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+To install set of the games use Makefile.
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
+To run the program you need to enter commands:
+
+```bash
+
+brain-calc
+brain-even
+brain-gcd
+brain-prime
+brain-progression
 ```
 
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
 
 ## Authors
 
@@ -42,16 +44,11 @@ Dmitry Ryzhov
 
 ## Version History
 
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
+
 * 0.1
     * Initial Release
 
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
-
 ## Acknowledgments
+
 
 Inspirated by Hexlet
