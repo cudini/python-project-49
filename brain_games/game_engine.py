@@ -17,6 +17,7 @@ def start_game(game):
         game_question, correct_answer = game.get_game_state()
         print(f'Question: {game_question}')
         user_answer = prompt.string('Your answer: ')
+
         if user_answer == correct_answer:
             print('Correct!')
         else:
