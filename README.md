@@ -1,7 +1,5 @@
 # Brain Games: simple smarty console-games
 
-# Brain Games
-
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/cudini/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/cudini/python-project-49/actions)
 ### Codeclimate:
@@ -39,6 +37,29 @@ brain-prime
 brain-progression
 ```
 
+## Demo
+
+### Brain-calc:
+*What is the result of the expression?
+
+[![asciicast](https://asciinema.org/a/ChmxoCQDY5v9Wf99VQEGuLJIv.svg)](https://asciinema.org/a/ChmxoCQDY5v9Wf99VQEGuLJIv)
+
+### Brain-even:
+*Answer "yes" if the number is even, otherwise answer "no".
+
+[![asciicast](https://asciinema.org/a/HMZqBLsaQSk1hQCLRfnPUQI93.svg)](https://asciinema.org/a/HMZqBLsaQSk1hQCLRfnPUQI93)
+
+### Brain-gcd:
+*Find the greatest common divisor of given numbers.
+[![asciicast](https://asciinema.org/a/GsbcTXMDGot0aL7LO1Wygy2yV.svg)](https://asciinema.org/a/GsbcTXMDGot0aL7LO1Wygy2yV)
+
+### Brain-prime:
+*'Answer "yes" if given is prime. Otherwise answer "no".'
+[![asciicast](https://asciinema.org/a/wkxjOixjWObezOkeOocabeBA8.svg)](https://asciinema.org/a/wkxjOixjWObezOkeOocabeBA8)
+
+### Brain-progression:
+*'What number is missing in the progression?'
+[![asciicast](https://asciinema.org/a/LTmio3F2u5HB7Tkktpt1iXAz1.svg)](https://asciinema.org/a/LTmio3F2u5HB7Tkktpt1iXAz1)
 
 ## Authors
 
@@ -46,11 +67,9 @@ Dmitry Ryzhov
 
 ## Version History
 
-
 * 0.1
     * Initial Release
 
 ## Acknowledgments
-
 
 Inspirated by Hexlet
