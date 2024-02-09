@@ -5,7 +5,7 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/cudini/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/cudini/python-project-49/actions)
 ### Codeclimate:
-[![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
+[![Maintainability](https://api.codeclimate.com/v1/badges/e39f8195a4289dc79796/maintainability)](https://codeclimate.com/github/cudini/python-project-49/maintainability)
 
 ### Technologies
 ![](https://img.shields.io/badge/language-python-blue)
