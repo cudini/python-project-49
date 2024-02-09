@@ -28,4 +28,4 @@ def start_game(game):
 
         tries_left -= 1
 
-    print(f'Congratulanions, {user_name}!')
+    print(f'Congratulations, {user_name}!')
