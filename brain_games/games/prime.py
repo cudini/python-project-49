@@ -11,7 +11,7 @@ MAX_NUMBER = 50
 
 def is_prime(number: int) -> bool:
 
-    if number < 2 and number % 2 == 0:
+    if number < 2 or number % 2 == 0:
         return False
 
     for devisor in range(2, int(sqrt(number)) + 1):
