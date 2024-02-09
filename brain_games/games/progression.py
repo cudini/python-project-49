@@ -14,10 +14,7 @@ def get_game_state():
     delta = randint(LOWER_BOUND, DELTA_LIMIT)
     first_number = randint(LOWER_BOUND, UPPER_BOUND)
     missing_number = randint(LOWER_BOUND, PROGRESSION_LENGTH)
-    progression = []
-
-    for index in make_progression(first_number, delta):
-        progression.append(str(index))
+    progression = to_string(make_progression(first_number, delta))
 
     correct_answer = progression[missing_number]
     progression[missing_number] = '..'
@@ -26,6 +23,13 @@ def get_game_state():
     return game_question, correct_answer
 
 
-def make_progression(first_number, delta):
+def make_progression(first_number: int, delta: int) -> range:
     last_number = first_number + (PROGRESSION_LENGTH * delta)
     return range(first_number, last_number, delta)
+
+
+def to_string(progression) -> str:
+    result = []
+    for index in progression:
+        result.append(str(index))
+    return result
