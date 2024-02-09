@@ -2,6 +2,8 @@
 from random import randint
 
 
+DESCRIPTION = 'Find the greatest common divisor of given numbers.'
+
 LOWER_LIMIT = 2
 UPPER_LIMIT = 200
 
