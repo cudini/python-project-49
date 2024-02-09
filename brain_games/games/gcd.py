@@ -9,11 +9,9 @@ UPPER_LIMIT = 200
 
 
 def get_gcd(number_1: int, number_2: int) -> int:
-    while number_2 != 0:
-        (number_1, number_2) = (number_2, number_1 % number_2)
-        if number_1 >= 0:
-            return number_1
-        return (-number_1)
+    while number_2:
+        number_1, number_2 = number_2, number_1 % number_2
+        return number_1
 
 
 def get_game_state():
