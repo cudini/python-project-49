@@ -15,8 +15,8 @@ classifiers = [
     "Intended Audience :: Developers",
     "License :: Free For Educational Use",
     "Natural Language :: English",
-    Operation System :: OS Independent",
-    Topic :: Games/Entertainment :: Interactive",
+    Operating System :: OS Independent",
+    Topic :: Games/Entertainment",
 ]
 
 [tool.poetry.dependencies]
