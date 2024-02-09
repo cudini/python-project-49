@@ -11,6 +11,6 @@ MAX_NUMBER = 100
 def get_game_state():
 
     number = randint(MIN_NUMBER, MAX_NUMBER)
-    correct_answer = 'yes' if number % 2 else 'no'
+    correct_answer = 'no' if number % 2 != 0 else 'yes'
 
     return number, correct_answer
