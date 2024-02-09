@@ -1,11 +1,21 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
-authors = ["Рыжов Дмитрий <main@cudini.ru>"]
+description = "Brain Games - simple smarty console-games"
+authors = ["Dmitry Ryzhov <main@cudini.ru>"]
 readme = "README.md"
 packages = [
   { include = "brain_games" },
+]
+classifiers = [
+    "Programming Language :: Python :: 3.10.12",
+    "Framework :: Flake8",
+    "Intended Audience :: Education",
+    "Intended Audience :: Developers",
+    "License :: Free For Educational Use",
+    "Natural Language :: English",
+    Operation System :: OS Independent",
+    Topic :: Games/Entertainment :: Interactive",
 ]
 
 [tool.poetry.dependencies]
