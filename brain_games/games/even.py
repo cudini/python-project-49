@@ -9,14 +9,17 @@ MAX_NUMBER = 100
 
 
 def is_even(random_number: int) -> bool:
-    return random_number & 1
+    return random_number % 2 == 0
 
 
 def get_game_state():
     number = randint(MIN_NUMBER, MAX_NUMBER)
+
     if is_even(number):
         correct_answer = 'yes'
     else:
         correct_answer = 'no'
+
     game_question = number
+
     return game_question, correct_answer
