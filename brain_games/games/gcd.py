@@ -9,7 +9,7 @@ LOWER_LIMIT = 2
 UPPER_LIMIT = 50
 
 
-def get_game_state():
+def get_quest_and_answer():
 
     first_number = randint(LOWER_LIMIT, UPPER_LIMIT)
     second_number = randint(LOWER_LIMIT, UPPER_LIMIT)
