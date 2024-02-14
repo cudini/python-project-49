@@ -8,9 +8,9 @@ MIN_NUMBER = 1
 MAX_NUMBER = 100
 
 
-def get_game_state():
+def get_quest_and_answer():
 
-    number = randint(MIN_NUMBER, MAX_NUMBER)
-    correct_answer = 'no' if number % 2 != 0 else 'yes'
+    game_question = randint(MIN_NUMBER, MAX_NUMBER)
+    correct_answer = 'no' if game_question % 2 != 0 else 'yes'
 
-    return number, correct_answer
+    return game_question, correct_answer
