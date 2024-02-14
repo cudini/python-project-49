@@ -21,11 +21,9 @@ def is_prime(number: int) -> bool:
     return True
 
 
-def get_game_state():
+def get_quest_and_answer():
 
-    number = randint(MIN_NUMBER, MAX_NUMBER)
-
-    correct_answer = 'yes' if is_prime(number) else 'no'
-    game_question = number
+    game_question = randint(MIN_NUMBER, MAX_NUMBER)
+    correct_answer = 'yes' if is_prime(game_question) else 'no'
 
     return game_question, correct_answer
